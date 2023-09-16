@@ -1,0 +1,41 @@
+@use "global";
+
+.brand-name {
+  font-size: 2.5rem;
+}
+.nav {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+  a {
+    color: global.$white;
+    font-size: 1.2rem;
+  }
+}
+
+.bg-container {
+  color: global.$white;
+  font-size: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/image-hero.jpg");
+  height: 900px;
+  padding: 0 global.$horizontal-padding;
+}
+.banner {
+  margin: 140px 0;
+
+  font-family: global.$font-josefin;
+  width: 50%;
+  padding: 20px;
+  border: 3px solid global.$white;
+}
+.banner-item {
+  font-weight: 300;
+  font-size: 6em;
+}
