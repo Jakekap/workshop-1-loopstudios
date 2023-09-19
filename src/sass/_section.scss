@@ -110,8 +110,9 @@ $very-dark-gray: hsl(0, 0%, 41%);
             padding: 1%;
             @include mixins_section.figure;
             @media screen and (max-width: 873px)  {
-                width: 80%;
+                width: 100%;
                 padding: 0;
+                margin-bottom: 5%;
             }
             p {
                 position: absolute;
@@ -119,6 +120,9 @@ $very-dark-gray: hsl(0, 0%, 41%);
                 left: 20%;
                 font-size: 200%;
                 color: hsl(0, 0%, 100%);
+                @media screen and (max-width: 873px)  {
+                    top: 0%;
+                }
                 @media (min-width:874px) and (max-width: 1106px)  {
                     font-size: 150%;
                 }

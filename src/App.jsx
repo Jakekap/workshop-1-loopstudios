@@ -5,7 +5,6 @@ import "./sass/global.scss";
 function App() {
   return (
     <main>
-      <Header />
       <MainContent />
     </main>
   );
