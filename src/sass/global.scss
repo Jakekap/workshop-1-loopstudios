@@ -1,8 +1,11 @@
-$font-stack: Helvetica, sans-serif;
+@use 'main';
+@use 'section';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+$font-josefin: 'Josefin Sans', sans-serif;
 $primary-color: #333;
 
 body {
-  font: 100% $font-stack;
+  font: 100% $font-josefin;
   color: $primary-color;
   margin: 0;
   padding: 0;

@@ -1,7 +1,8 @@
-import "./styles/global.css";
+import "./sass/global.scss";
+import MainContent from './MainContent';
 
 function App() {
-  return <div>Hola</div>;
+  return <MainContent/>;
 }
 
 export default App;
