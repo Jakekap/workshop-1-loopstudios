@@ -7,7 +7,6 @@ import FooterContent from './FooterContent'
 function App() {
   return (
     <main>
-      <Header />
       <MainContent />
       <FooterContent />
     </main>
